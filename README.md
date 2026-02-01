@@ -20,7 +20,6 @@ n8n template to test prompts across 350+ OpenRouter LLMs and see exact per-reque
 
 ## Included Files
 - `workflow.json`
-- `metadata.json`
 
 ## Setup
 1. Import `workflow.json` into n8n.
@@ -47,6 +46,12 @@ n8n template to test prompts across 350+ OpenRouter LLMs and see exact per-reque
 ## Author
 
 Murtaza Baig
+
+## Screenshots
+
+![Screenshot](assets/6656-automate-lead-qualification---customer-support-with-gpt-4o-mini-agents.webp)
+![Screenshot](assets/n8nworfklows.webp)
+![Screenshot](assets/thumbnail.webp)
 
 ## License
 MIT License. See `LICENSE`.
