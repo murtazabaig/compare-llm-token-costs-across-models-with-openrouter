@@ -1,0 +1,45 @@
+{
+  "id": 12100,
+  "title": "Compare LLM token costs across 350+ models with OpenRouter",
+  "slug": "compare-llm-token-costs-across-350-models-with-openrouter-12100",
+  "description": "THIS N8N TEMPLATE LETS YOU RUN PROMPTS AGAINST 350+ LLM MODELS AND SEE EXACTLYWHAT EACH REQUEST COSTS WITH REAL-TIME PRICING FROM OPENROUTERUse cases are many: Compare costs across different models, plan your AI budget,optimize prompts for cost efficiency, or track expenses for client billing!GOOD TO KNOW * OpenRouter charges a platform fee on top of model costs. See OpenRouter Pricing [https://openrouter.ai/pricing] for details. * You need an OpenRouter account with API credits. Free signup available with some free models included. * Pricing data is fetched live from OpenRouter's API, so costs are always up-to-date.HOW IT WORKS 1. All available models are fetched from OpenRouter's API when you start. 2. You select a model and enter your prompt via the form (or just use the chat). 3. The prompt is sent to OpenRouter and the response is captured. 4. Token usage (input/output) is extracted from the response using a LangChain Code node. 5. Real-time pricing for your selected model is fetched from OpenRouter. 6. The exact cost is calculated and displayed alongside your AI response.HOW TO USE * Chat interface: Quick testing - just type a prompt and get the response with costs. * Form interface: Select from all available models via dropdown, enter your prompt, and get a detailed cost breakdown. * Click \"Show Details\" on the result form to see the full breakdown (input tokens, output tokens, cost per type).REQUIREMENTS * OpenRouter account with API key (Get one here [https://openrouter.ai/settings/keys])CUSTOMISING THIS WORKFLOW * Add a database node to log all requests and costs over time * Connect to Google Sheets for cost tracking and reporting * Extend with LLM-as-Judge evaluation to also check response quality",
+  "metadescription": "n8n template to test prompts across 350+ OpenRouter LLMs and see exact per-request costs with live pricing—compare models, optimize spend, bill clients.",
+  "summary": "Run one prompt across 350+ LLMs via OpenRouter and see the exact cost per request with live, always-current pricing.  \nCompare model pricing side-by-side to optimize prompts, plan budgets, and track spend for client billing.  \nChoose fast chat testing or a form-based flow with model dropdown and “Show Details” cost breakdown.  \nAuto-fetches available models, sends your prompt, captures the response, and extracts input/output tokens via LangChain.  \nPulls real-time per-token rates from OpenRouter, calculates totals, and displays costs next to the output.  \nOptional upgrades: log to a database, sync to Google Sheets, or add LLM-as-Judge quality scoring.",
+  "date": "24 Dec 2025",
+  "createdAtRaw": "2025-12-24T12:21:06.911+00:00",
+  "categories": [
+    "Engineering",
+    "AI Chatbot"
+  ],
+  "nodeTypes": [
+    "n8n-nodes-base.code",
+    "n8n-nodes-base.form",
+    "n8n-nodes-base.filter",
+    "n8n-nodes-base.splitOut",
+    "n8n-nodes-base.stickyNote",
+    "n8n-nodes-base.formTrigger",
+    "n8n-nodes-base.httpRequest",
+    "@n8n/n8n-nodes-langchain.chat",
+    "@n8n/n8n-nodes-langchain.code",
+    "n8n-nodes-base.executeWorkflow",
+    "@n8n/n8n-nodes-langchain.chatTrigger",
+    "n8n-nodes-base.executeWorkflowTrigger",
+    "@n8n/n8n-nodes-langchain.lmChatOpenRouter"
+  ],
+  "author": {
+    "name": "Philflow",
+    "username": "philflow",
+    "avatar": "https://gravatar.com/avatar/ea057f84e2c3dc30b0dc47fdde0e272eb0dd1e1bcad47089ec5a539114d4ba11?r=pg&d=retro&size=200",
+    "verified": false
+  },
+  "popularity": 17,
+  "visitors": 30,
+  "inserters": 4,
+  "templateUrl": "https://n8n.io/workflows/12100",
+  "readme": "",
+  "thumbnail": "https://supabase.amastuces.com/storage/v1/object/public/worklowscreenshot/12100-compare-llm-token-costs-across-350--models-with-openrouter.webp",
+  "complexityLevel": "advanced",
+  "templateData": null,
+  "price": 0,
+  "referalUrl": null
+}
