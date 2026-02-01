@@ -1,6 +1,4 @@
-![Workflow thumbnail](assets/thumbnail.webp)
 
-![Workflow thumbnail](assets/thumbnail.svg)
 
 ![n8n](https://img.shields.io/badge/n8n-workflow-0EA5E9)
 ![license](https://img.shields.io/badge/license-MIT-green)
@@ -46,12 +44,6 @@ n8n template to test prompts across 350+ OpenRouter LLMs and see exact per-reque
 ## Author
 
 Murtaza Baig
-
-## Screenshots
-
-![Screenshot](assets/6656-automate-lead-qualification---customer-support-with-gpt-4o-mini-agents.webp)
-![Screenshot](assets/n8nworfklows.webp)
-![Screenshot](assets/thumbnail.webp)
 
 ## License
 MIT License. See `LICENSE`.
